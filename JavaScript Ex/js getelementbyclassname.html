@@ -1,0 +1,25 @@
+<html>
+<html lang=en>
+<head>
+<title> javascript </title>
+</head>
+<script type="text/javascript">
+function prn()
+{
+var para = document.getElementsByClassName("paraa");
+for(var x=0;x<para.length;x++)
+{
+para[x].style.color="red";
+}
+}
+</script>
+<body>
+<p class="paraa"> This element 1</p>
+<p> This element 3</p>
+<p class="paraa"> This element 5</p>
+<p> This element 9</p>
+
+</body>
+<button onclick="prn()"> Click </button>
+
+</html>
