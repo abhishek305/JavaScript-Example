@@ -1,0 +1,30 @@
+<html>
+<html lang=en>
+<head>
+<title> javascript </title>
+</head>
+<script type="text/javascript">
+function val()
+{
+var cell=document.getElementById("phone").value;
+var regx=/^[7-9]\d{9}$/;
+if(regx.test(cell))
+{
+document.getElementById("lb1").innerHTML="valid";
+document.getElementById("lb1").style.visibility="visible";
+document.getElementById("lb1").style.color="blue";
+}
+else
+{
+document.getElementById("lb1").innerHTML="invalid";
+document.getElementById("lb1").style.visibility="visible";
+document.getElementById("lb1").style.color="red";
+}
+}
+</script>
+<body>
+<input type="text" id="phone" placeholder="cellphone"/><br></br>
+<label id="lb1" style="color:red;visibility:hidden">Invalid</label>
+<button onclick="val()" type="button">Click</button>
+</body>
+</html>
