@@ -8,6 +8,7 @@ function val()
 {
 var cell=document.getElementById("phone").value;
 var regx=/^[7-9][0-9]{9}$/;
+//var regx=^[5-9][a-z]{8}0$;  
 if(regx.test(cell))
 {
 document.getElementById("lb1").innerHTML="valid";
