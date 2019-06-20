@@ -7,7 +7,7 @@
 function val()
 {
 var cell=document.getElementById("phone").value;
-var regx=/^[7-9]\d{9}$/;
+var regx=/^[7-9][0-9]{9}$/;
 if(regx.test(cell))
 {
 document.getElementById("lb1").innerHTML="valid";
