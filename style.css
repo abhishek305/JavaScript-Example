@@ -1,0 +1,33 @@
+#head
+{
+	color:red;
+}
+#p1
+{
+	color:blue;
+	font-family: courier;
+	font-size: 100%;
+}
+#image1
+{
+	border: 5px solid powderblue;
+}
+table,td,th
+{
+	padding: 5px;
+	text-align: left;
+	
+}
+table,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+	background-color: #eee;
+	
+}
+
+table#table1 th
+{
+	background-color:blue;
+	color:white;
+}
+
