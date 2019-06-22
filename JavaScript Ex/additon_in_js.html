@@ -1,0 +1,23 @@
+<html>
+<html lang=en>
+<head>
+<title> Addition </title>
+</head>
+<script type="text/javascript">
+function val()
+{
+var nm1=document.getElementById("no1").value;
+var nm2=document.getElementById("no2").value;
+var nm3=parseInt(nm1)+parseInt(nm2);
+document.getElementById("lb1").innerHTML=nm3;
+
+}
+</script>
+<body>
+<input type="text" id="no1" placeholder="first"/><br></br>
+<input type="text" id="no2" placeholder="second"/><br></br>
+<label id="lb1"></label><br></br>
+
+<button onclick="val()" type="button">Click</button>
+</body>
+</html>
